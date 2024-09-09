@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: 02-sb-web-mvc
+  datasource:
+    url: jdbc:mysql://localhost:3306/kts
+    username: root
+    password: kts@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 9999
